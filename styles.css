@@ -35,7 +35,7 @@
   height: 500px;
   margin: 50px auto;
   box-sizing: border-box;
-  padding: 0px 50px;
+  padding: 50px 50px;
 }
 .container2 img {
   width: 100px;
@@ -63,9 +63,60 @@
 .container3 {
   border: 1px solid grey;
   width: 700px;
-  height: 800px;
+  height: 1100px;
   margin: 50px auto;
+  box-sizing: border-box;
 }
 .container3 img {
   width: 700px;
+}
+.container3 p {
+  color: grey;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.container3 h1 {
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: "Open Sans", sans-serif;
+}
+.inner3 {
+  padding: 50px;
+}
+.container3 button {
+  font-size: 30px;
+  color: blue;
+  width: 250px;
+  height: 70px;
+  border-radius: 14px;
+  margin: 50px 0px;
+}
+
+.container4 {
+  border-radius: 14px;
+  width: 700px;
+  height: 500px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 0px 50px;
+}
+.container4 input {
+  width: 60%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 14px;
+  padding: 20px;
+}
+.container4 button {
+  margin: 10px auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  width: 300px;
+  height: 70px;
+  border-radius: 14px;
 }
